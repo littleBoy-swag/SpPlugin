@@ -1,0 +1,4 @@
+rootProject.name='SpDemo'
+include ':app'
+include ':sp_compiler'
+include ':nqy_anno'
