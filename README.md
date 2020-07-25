@@ -32,6 +32,12 @@ data class User(
 tv.text = "name:${UserSP.name},age:${UserSP.age}"
 ```
 
+赋值就和普通的对象赋值一样
+```
+UserSP.name = "nqy"
+UserSP.age = 16
+```
+
 需要在项目的app模块下的build.gradle文件中添加
 
 
